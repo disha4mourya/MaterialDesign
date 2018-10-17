@@ -16,7 +16,10 @@
 -->
 
 <resources>
+<!--
     <color name="photo_placeholder">#ccc</color>
+-->
+    <color name="photo_placeholder">#333</color>
 
     <color name="colorPrimary">#607D8B</color>
     <color name="colorPrimaryDark">#455A64</color>
