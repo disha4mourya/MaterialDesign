@@ -25,7 +25,9 @@
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
-                     />
+                    android:fitsSystemWindows="true"
+                    android:scaleType="centerCrop"
+                    />
 
                 <View
                     android:layout_width="match_parent"
@@ -101,7 +103,7 @@
         android:src="@drawable/ic_share"
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
-        app:elevation="6dp"
+        app:elevation="@dimen/share_button_elev"
         android:layout_marginBottom="@dimen/fab_margin"
         />
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
